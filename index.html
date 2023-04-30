@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="player">
+        <div class="details">
+            <div class="now-playing">playing x of y</div>
+            <div class="track-art"></div>
+            <div class="track-name">track name</div>
+            <div class="track-artist">track artist</div>
+        </div>
+
+        <div class="slider-container">
+            <div class="current-time">00.00</div>
+            <input type="range" min="1" max="100" class="seek-slider">
+            <div class="total-time">00.00</div>
+        </div>
+
+        <div class="slider-container"></div>
+
+        <div class="buttons">
+            <div class="btn random">
+                <i class="fa-solid fa-shuffle fa-xl"></i>
+            </div>
+
+            <div class="btn prev">
+                <i class="fa-solid fa-backward-step fa-xl"></i>
+            </div>
+
+            <div class="btn play">
+                <i class="fa-solid fa-circle-play fa-2x"></i>
+            </div>
+
+            <div class="btn next" >
+                <i class="fa-solid fa-forward-step fa-xl"></i>
+            </div>
+
+            <div class="btn repeat" >
+                <i class="fa-solid fa-rotate-right fa-xl"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/fec5d7e87f.js" crossorigin="anonymous"></script>
+</body>
+</html>
